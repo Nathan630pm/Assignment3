@@ -4,7 +4,7 @@
 This is the 'GROUPr' app. Use this to see local events in the area, and add them & remove them from your profile!
 
 # EXPO INSTALL INSTRUCTIONS:
-Download git repository, and then open a terminal, locate the folder, and run 'expo install'.
+Download the git repository, and then open a terminal or command prompt window, change the directory to the folder, and run 'expo install'.
 
 # RUNNING THE APP:
 Run the command 'expo start' in the terminal, and scan the QR code with your phone to run. If you are already logged in, you will be redirected to the main app page, rather then the login screen.
