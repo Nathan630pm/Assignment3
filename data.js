@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
-import { View, Text, StyleSheet, Switch, TouchableOpacity, Button} from 'react-native';
+import { View, Text, StyleSheet, Switch, Dimensions, TouchableOpacity, Button} from 'react-native';
 import firebase from './firebase';
 import { TextInput, FlatList } from 'react-native-gesture-handler';
 import DialogInput from 'react-native-dialog-input';
+
+const { width, height } = Dimensions.get('window');
 
 // const firebase = firebase.database();
 
@@ -16,7 +18,7 @@ export default class SettingsScreen extends Component {
     render() {
         return (
             <View style={styles.container}>
-                <Text style={styles.topTitle}>*empty page*</Text>
+                <Text style={styles.topTitle}>The Settings page is coming soon!</Text>
                 
                 
                 </View>
@@ -52,6 +54,8 @@ const styles = StyleSheet.create({
         fontSize: 30,
         top: 0,
         position: "absolute",
+        alignSelf: 'center',
+        top: height/2.5
     },
     editArea: {
         position: "absolute",

@@ -176,9 +176,10 @@ export default class ProfilePEEventsScreen extends Component {
                             </View>
                         )
                     })}
-        
-        
+
+                    <Text style={{color: 'white', margin: 20}}>*THIS IS A SPACER*</Text>
                 </ScrollView>
+                
                 <View style={styles.buttons}>
                 <TouchableOpacity style={styles.button}
                     title="Back"
